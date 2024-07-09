@@ -25,8 +25,8 @@
 
 .header-bg{
     background-image: url(./images/Hero-bg.png);
-    height: 500px;
-    border: 1px solid red;
+    height: 530px;
+    
 }
 
 .header-content{
@@ -35,7 +35,7 @@
     padding-top: 20px;
     margin: 0 auto;
     
-    border: 1px solid red;
+    
 
 }
 
@@ -55,3 +55,77 @@
 .ptag{
     opacity: .7;
 }
+
+/* "this is about section" */
+
+.about{
+    height: 900px;
+    width: 80%;
+    
+    padding-top: 2px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: #d6cccc1e;
+}
+
+.about-heading > h2,.ptag1{
+    text-align: center;
+    margin-top: 20px;;
+    
+}
+
+.about-heading{
+    margin-top: 35px;
+}
+
+/* about content section */
+
+
+.about-contents{
+    height: 20%;
+    width: auto;
+    
+    margin: 5% 10%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.about-in{
+    height: 90%;
+    width: 45%;
+    margin: 20px;
+}
+.ptag2{
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.about-btn{
+    font-size: 15px;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid rgb(104, 103, 103);
+    border-radius: 2px;
+}
+
+.about-img ,img{
+    height: 90%;
+    padding: 10px;
+    
+}
+.about-img{
+    background-image: linear-gradient(to right,  rgb(252, 252, 252),#d6cccc1e);
+}
+
+.in2{
+    margin-left: 0px;
+    
+    height: 90%;
+    width: 50%;
+    margin: 20px;
+    margin-right: 150px;
+}
+
+/* end about sec */
