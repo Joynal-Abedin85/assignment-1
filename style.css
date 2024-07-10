@@ -151,8 +151,7 @@ iframe{
 
 .target-sec{
     width: 80%;
-    height: 1000px;
-    border: 1px solid red;
+    height: 1200px;
     margin: 0 auto;
     text-align: center;
     margin-top: 60px;
@@ -197,3 +196,30 @@ iframe{
 
 /* end my current terget */
 
+/* start next target section   */
+
+.next-sec{
+    margin-top: 50px;
+}
+
+.next-sec-in{
+    width: 97%;
+    border: 1px  solid rgba(85, 85, 85, 0.336);
+    border-radius: 15px;
+    display: flex;
+    height: 160px;
+    margin-top: 30px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.next-text{
+    text-align: start;
+    margin-left: 30px;
+}
+
+.next-targ,img{
+    width: 90px;
+}
+
+/* end full target section  */
