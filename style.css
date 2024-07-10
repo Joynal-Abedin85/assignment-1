@@ -129,3 +129,22 @@
 }
 
 /* end about sec */
+
+/* this is  inspire secttion */
+
+.inspire-sec{
+    height: 500px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+iframe{
+    border-radius: 2%;
+    box-shadow: 0px 0px 1px 1px rgba(51, 51, 51, 0.267);
+    padding: 14px;
+}
+
+/* end inspire sec */
+
