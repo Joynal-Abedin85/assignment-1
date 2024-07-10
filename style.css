@@ -147,4 +147,53 @@ iframe{
 }
 
 /* end inspire sec */
+/* target section */
+
+.target-sec{
+    width: 80%;
+    height: 1000px;
+    border: 1px solid red;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.works{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 30px;
+    
+}
+
+.skill{
+    text-align: left;
+    height: 250px;
+    width: 87%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.skill1{
+    background-color: rgba(255, 192, 203, 0.541);
+}
+
+.skill2{
+    background-color: #81eedc79;
+}
+
+.skill3{
+    background-color: rgba(250, 211, 218, 0.459);
+}
+
+.atag,a{
+    list-style: none;
+    color: black;
+}
+
+.img-sec,img{
+    padding-left: 0;
+}
+
+/* end my current terget */
 
