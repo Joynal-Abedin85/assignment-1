@@ -314,8 +314,8 @@ footer{
 }
 
 .footer-icon,.foot-icon{
-    height: 35px;
-    width: 18%;
+    width: auto;
+    height: 70%;
     flex-direction: row;
     display: flex;
     align-items: center;
@@ -429,7 +429,54 @@ footer{
         gap: 10px;
         margin: 10px 0;
     }
+
 }
 
+@media screen and (min-width:576px) and (max-width:900px) 
+{
+    .about{
+        height: auto;
+        width: 90%;
+    }
+    .about-contents{
+        flex-direction: column;
+        align-items: center;
+    }
+    .in2{
+        width: 85%;
+        margin: 10px auto;
+    }
+
+    .about-in{
+        width: 85%;
+        margin: 10px auto;
+        text-align: end;
+    }
+    iframe{
+        width: 90%;
+        height: 300px;
+    }
+    .works{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+
+    .target-sec{
+        width: 85%;
+        height: auto;
+    }
+
+    .support-sec{
+        
+        margin-top: 30px;
+    }
+    .support-in{
+        width: 60%;
+    }
+    .footer-icon,.foot-icon{
+        width: auto;
+        height: 60%;
+    }
+}
 
 
